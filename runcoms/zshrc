@@ -11,4 +11,25 @@ if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
 fi
 
 # Customize to your needs...
-
+set -o vi
+alias t=task
+alias ta='task add'
+alias tco='task +o'
+alias tcp='task +p'
+alias tcr='task +r'
+alias tcv='task +v'
+alias tcw='task +w'
+alias tcb='task +b'
+alias tce='task +e'
+alias tcj='task +j'
+alias tcm='task +m'
+alias tps='task projects'
+alias ts='task summary'
+alias tls='task proj:ls'
+alias tao='task add +o'
+alias tals='task add proj:ls '
+alias tac='task add proj:catapult '
+alias tc='task proj:catapult'
+alias t-='task -$ -h -o -r -e -m -a -p -d -w -j -b'
+alias f='find . -name'
+export EDITOR=/usr/local/Cellar/macvim/7.3-64/bin/mvim

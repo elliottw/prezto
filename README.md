@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Prezto — Instantly Awesome Zsh
 ==============================
 
@@ -125,3 +126,7 @@ SOFTWARE.
 [7]: http://www.bash2zsh.com/zsh_refcard/refcard.pdf
 [8]: http://grml.org/zsh/zsh-lovers.html
 
+=======
+prezto
+======
+>>>>>>> 61b013c2a32bb4aefa57cee76983e5e64649bca7
